@@ -104,8 +104,8 @@ deleteGrade(){//function to delete a grade.
 addNewStudent(){
     //A function to add a new student .
     let name=prompt(`Enter the name of the student:`);
-    let studId=prompt(`Enter the studentId :`);
-    this.selectedGrade.addStudent(new Student(name,studId));
+    let studentId=prompt(`Enter the studentId :`);
+    this.selectedGrade.addStudent(new Student(name,studentId));
 }
 deleteStudent(){//function to delete a Student from the array.
     let index=prompt(`Enter the index of thestudent you wish to delete:`);
